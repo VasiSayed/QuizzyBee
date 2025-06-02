@@ -64,7 +64,166 @@ function App() {
   };
 
   const quizQuestions = [
-    /* your existing question array here */
+    [
+      "What does HTML stand for?",
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyper Text Markup Language",
+      "Hyperlink Text Management Language",
+      "Hyper Text Markup Language",
+    ],
+    [
+      "Which language is used for styling web pages?",
+      "HTML",
+      "jQuery",
+      "CSS",
+      "XML",
+      "CSS",
+    ],
+    [
+      "Which is not a programming language?",
+      "Python",
+      "Java",
+      "HTML",
+      "C++",
+      "HTML",
+    ],
+    [
+      "Which symbol is used for single-line comments in Python?",
+      "//",
+      "<!--",
+      "#",
+      "/**/",
+      "#",
+    ],
+    [
+      "What is the extension of JavaScript files?",
+      ".js",
+      ".java",
+      ".py",
+      ".script",
+      ".js",
+    ],
+    [
+      "Which method is used to print something in Python?",
+      "echo",
+      "cout",
+      "print",
+      "console.log",
+      "print",
+    ],
+    [
+      "Which of the following is used to define a variable in JavaScript?",
+      "var",
+      "let",
+      "const",
+      "All of the above",
+      "All of the above",
+    ],
+    [
+      "What does SQL stand for?",
+      "Structured Question Language",
+      "Simple Query Language",
+      "Structured Query Language",
+      "Sequential Query Language",
+      "Structured Query Language",
+    ],
+    [
+      "Which one is a looping structure in JavaScript?",
+      "if",
+      "for",
+      "switch",
+      "alert",
+      "for",
+    ],
+    [
+      "Which keyword is used to create a function in Python?",
+      "def",
+      "function",
+      "fun",
+      "define",
+      "def",
+    ],
+    [
+      "Which of these is a frontend framework?",
+      "Flask",
+      "Django",
+      "React",
+      "Node.js",
+      "React",
+    ],
+    [
+      "Which of the following is not an IDE?",
+      "PyCharm",
+      "Visual Studio Code",
+      "MS Word",
+      "IntelliJ IDEA",
+      "MS Word",
+    ],
+    [
+      "Which data structure uses LIFO order?",
+      "Queue",
+      "Stack",
+      "Array",
+      "List",
+      "Stack",
+    ],
+    [
+      "Which function converts a string to a number in JavaScript?",
+      "toInt",
+      "parseInt",
+      "stringToNum",
+      "convert",
+      "parseInt",
+    ],
+    [
+      "What does DOM stand for?",
+      "Document Oriented Model",
+      "Data Object Management",
+      "Document Object Model",
+      "Data Oriented Model",
+      "Document Object Model",
+    ],
+    [
+      "Which operator is used to assign value in Python?",
+      "==",
+      ":=",
+      "=",
+      "=>",
+      "=",
+    ],
+    [
+      "Which tag is used to link CSS to HTML?",
+      "<style>",
+      "<script>",
+      "<link>",
+      "<css>",
+      "<link>",
+    ],
+    [
+      "Which method is used to add an item to the end of an array in JavaScript?",
+      "push",
+      "pop",
+      "shift",
+      "unshift",
+      "push",
+    ],
+    [
+      "What is the correct syntax to create a class in Python?",
+      "class MyClass()",
+      "class = MyClass",
+      "class MyClass:",
+      "MyClass class",
+      "class MyClass:",
+    ],
+    [
+      "Which HTML tag is used to display images?",
+      "<pic>",
+      "<src>",
+      "<image>",
+      "<img>",
+      "<img>",
+    ],
   ];
 
   return (
@@ -72,7 +231,6 @@ function App() {
       <nav style={navStyle}>
         <div style={logoStyle}>QuizzyBee</div>
 
-        {/* Hamburger Icon - Visible only on small screens */}
         <div
           style={{
             ...hamburgerStyle,
